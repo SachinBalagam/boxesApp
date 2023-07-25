@@ -1,1 +1,53 @@
 /* Write your code here. */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.heading {
+  font-family: "Roboto";
+  font-size: 40px;
+  color: #0f172a;
+}
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media Screen and (min-width: 768px) {
+  .cards-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}
+.title {
+  font-size: 20px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bree Serif";
+  color: #ffffff;
+  margin: 10px;
+}
+.small {
+  background-color: #fbbf24;
+  height: 100px;
+  width: 100px;
+}
+.medium {
+  background-color: #38bdf8;
+  height: 200px;
+  width: 200px;
+}
+.large {
+  background-color: #ec4899;
+  height: 400px;
+  width: 400px;
+}
